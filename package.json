@@ -1,21 +1,15 @@
 {
-  "name": "@saltcorn/flatpickr-date",
-  "version": "0.2.5",
-  "description": "Date/Time picker for Date fields",
+  "name": "@anteoic/flatpickr-date",
+  "version": "1.0.0",
+  "description": "Customized Date/Time picker for Date fields",
   "main": "index.js",
   "dependencies": {
     "@saltcorn/data": "^0.3.3",
     "@saltcorn/markup": "^0.2.0"
   },
-  "author": "Tom Nielsen",
+  "author": "Your Name",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^25.1.0"
-  },
-  "repository": "github:saltcorn/flatpickr-date",
-  "jest": {
-    "testEnvironment": "node"
-  },
+  "repository": "https://github.com/anteoic/flatpickr-dateHR",
   "scripts": {
     "test": "jest"
   },

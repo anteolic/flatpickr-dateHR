@@ -62,7 +62,7 @@ const run = async (table_id, viewname, { date_field }, state, extra) => {
         dateFormat: "Y-m-d",${set_initial}
         onChange: function(selectedDates, dateStr, instance) {
             if(selectedDates.length==2) {
-                set_state_fields({_fromdate_${name}: selectedDates[0].toLocaleDateString('en-CA'), _todate_${name}: selectedDates[1].toLocaleDateString('en-CA') })
+                set_state_fields({_fromdate_${name}: selectedDates[0].toLocaleDateString('hr-HR'), _todate_${name}: selectedDates[1].toLocaleDateString('hr-HR') })
             }            
         },
     });`
